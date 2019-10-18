@@ -1,8 +1,9 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     padding: 0;
     margin: 0;
-    font-size: 12px
+    font-size: 16px;
+
 }
 
 
@@ -11,16 +12,23 @@ h1 {
     text-align: center;
     width: 100vw;
     height: 80vh;
-    font-size: 40px;
+    font-size: 70px;
+    font-weight: lighter;
     background-image: url("../images/apple-pie.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
+}
+
+p {
+    font-size: 18px;
+    font-weight: lighter
 }
 
 h2 {
-    margin: 10px
+    margin: 10px;
+    font-size: 16px
 }
 
 .apple_image {
@@ -52,6 +60,10 @@ img {
     padding: 10px
 }
 
+ul {
+    list-style-type: thai
+}
+
 .image_size {
     padding: 100px
 }
@@ -66,4 +78,5 @@ p {
 
 .text {
     padding: 30px 40px;
+    font-weight: lighter
 }
